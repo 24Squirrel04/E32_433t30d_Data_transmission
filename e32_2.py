@@ -46,7 +46,7 @@ if __name__ == "__main__":
             
     except BaseException as ex:
         print(ex)
-        print(f'Нет соединения! Попытка подключения...')
+        print(f'No connect, trying to connect again!')
         time.sleep(5)
             
     else:
